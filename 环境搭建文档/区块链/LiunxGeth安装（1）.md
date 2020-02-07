@@ -10,9 +10,7 @@ _关键词：安卓手机配置区块链，LinuxDeploy 安装区块链，Geth �
 > 本例使用**红米 5a，2gRAM，16g 内存，4 核 ARM64**
 > 删除温控,超频等操作来优化体验（使用内核调教等软件，酷安自寻）
 
- <img src="https://img-blog.csdnimg.cn/20200207200109620.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg3NzkwMA==,size_16,color_FFFFFF,t_70" width="40%">
-
-<img src="https://img-blog.csdnimg.cn/20200207200418246.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg3NzkwMA==,size_16,color_FFFFFF,t_70" width="40%">
+<img src="https://img-blog.csdnimg.cn/20200207200109620.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg3NzkwMA==,size_16,color_FFFFFF,t_70" width="40%"><img src="https://img-blog.csdnimg.cn/20200207200418246.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg3NzkwMA==,size_16,color_FFFFFF,t_70" width="40%">
 
 > 以使用 Debian 为例 镜像源修改为
 
@@ -32,11 +30,7 @@ _关键词：安卓手机配置区块链，LinuxDeploy 安装区块链，Geth �
 
 > 启用 SSH
 
-<img src="https://s2.ax1x.com/2020/02/07/123OL8.png" width="30%">
-
-<img src="https://s2.ax1x.com/2020/02/07/123Lsf.png" width="30%">
-
-<img src="https://s2.ax1x.com/2020/02/07/123qQP.png" width="30%">
+<img src="https://s2.ax1x.com/2020/02/07/123OL8.png" width="30%"><img src="https://s2.ax1x.com/2020/02/07/123Lsf.png" width="30%"><img src="https://s2.ax1x.com/2020/02/07/123qQP.png" width="30%">
 
 ##### ！！！！不要开启图形界面
 
