@@ -9,6 +9,7 @@
 > 小米手机一台，root，安装 LinuxDeploy
 > 本例使用**红米 5a，2gRAM，16g 内存，4 核 ARM64**
 > 删除温控,超频等操作来优化体验（使用内核调教等软件，酷安自寻）
+> <img src="https://img-blog.csdnimg.cn/20200207200109620.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg3NzkwMA==,size_16,color_FFFFFF,t_70" width="50%"><img src="https://img-blog.csdnimg.cn/20200207200418246.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg3NzkwMA==,size_16,color_FFFFFF,t_70" width="50%">
 
 > 以使用 Debian 为例 镜像源修改为
 
@@ -33,6 +34,8 @@
 > 直接安装即可
 
 ### 2.控制台配置 Dbian，安装依赖
+
+<img src="https://img-blog.csdnimg.cn/20200207200857513.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mzg3NzkwMA==,size_16,color_FFFFFF,t_70" width="100%">
 
 > 先看看是用的哪个 shell
 
