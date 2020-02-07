@@ -2,7 +2,7 @@
 
 > 本文档为混合教程，为 Geth 的私链搭建教程，目标为构建 windows 电脑，linux 服务器，安卓手机，树莓派的混合私链集群，有疑问请在 github 上的 issues 中提出或者在下方评论区回复，或者加群 457053357
 
-##关键词：安卓手机配置区块链，LinuxDeploy 安装区块链，Geth 配置，以太坊配置
+_关键词：安卓手机配置区块链，LinuxDeploy 安装区块链，Geth 配置，以太坊配置_
 
 ### 1.安卓手机配置（树莓派或者 Linux 可直接跳过）
 
@@ -78,7 +78,7 @@
 
     sudo usermod -aG aid_inet jiajia #jiajia为登录的用户名
 
-> 修改 host，解决 git clone 速度过慢问题（速度正常请不要修改）
+> 解决 git clone 速度过慢问题（速度正常请不要修改）
 
     sudo nano /etc/hosts
 
@@ -86,12 +86,28 @@
     13.250.177.223 github.com
     151.101.229.194 github.global.ssl.fastly.net
 
-    sudo /etc/init.d/networking restart #更新DNS
+    sudo /etc/init.d/networking restart #更新
 
 > 测试
 
     ping baidu.com
 
 > 不成功则重启 linuxdeploy
+> clone 获取 Geth 的源码,进入目录 make
 
-## 欢迎修改 https://github.com/jiajiayao/Docunent
+    mkdir src
+    cd src
+    git clone -b release/1.9 https://github.com/ethereum/go-ethereum.git
+    cd go-ethereum
+    make
+
+[![121w4A.png](https://s2.ax1x.com/2020/02/07/121w4A.png)](https://imgchr.com/i/121w4A)
+
+> 等待完成
+
+     sudo cp build/bin/geth /usr/local/bin/
+     geth #测试
+
+> ### Geth 在你的手机上面环境搭建完成，下一个教程为私链的启动和区块集群的搭建以及挖矿
+>
+> _欢迎修改和下载 https://github.com/jiajiayao/Docunent_
