@@ -29,6 +29,12 @@ _关键词：安卓手机配置区块链，LinuxDeploy 安装区块链，Geth �
 
 > 启用 SSH
 
+<img src="https://s2.ax1x.com/2020/02/07/123OL8.png" width="30%">
+
+<img src="https://s2.ax1x.com/2020/02/07/123Lsf.png" width="30%">
+
+<img src="https://s2.ax1x.com/2020/02/07/123qQP.png" width="30%">
+
 ##### ！！！！不要开启图形界面
 
 > 直接安装即可
@@ -101,12 +107,18 @@ _关键词：安卓手机配置区块链，LinuxDeploy 安装区块链，Geth �
     cd go-ethereum
     make
 
-[![121w4A.png](https://s2.ax1x.com/2020/02/07/121w4A.png)](https://imgchr.com/i/121w4A)
+<img src="https://s2.ax1x.com/2020/02/07/121w4A.md.png">
+
+![121dNd.png](https://s2.ax1x.com/2020/02/07/121dNd.png)
 
 > 等待完成
 
      sudo cp build/bin/geth /usr/local/bin/
      geth #测试
+
+![121tBD.png](https://s2.ax1x.com/2020/02/07/121tBD.png)
+
+![121tBD.png](https://s2.ax1x.com/2020/02/07/121tBD.png)
 
 > ### Geth 在你的手机上面环境搭建完成，下一个教程为私链的启动和区块集群的搭建以及挖矿
 >
